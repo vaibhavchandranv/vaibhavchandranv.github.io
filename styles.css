@@ -3,6 +3,7 @@ body {
     font-family: 'Bricolage Grotesque', sans-serif;
     margin: 0;
     background: url('bgimg.png') no-repeat center center;
+    background-color: #EEE6E0;
     background-size: cover;
     color: #000;
   }
