@@ -7,7 +7,7 @@ body {
     background-color: #191919;
     background-image: url(bgimg.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     animation: diagonalScroll 10s linear infinite;
 }
 
@@ -70,6 +70,7 @@ body {
     height: 125px;
     opacity: 100%;
     background-color: #ffffff;
+    animation: float 3s ease-in-out infinite;
 }
 
 .reddit {
@@ -84,6 +85,7 @@ body {
     width: 125px;
     height: 125px;
     background-color: #FF5700;
+    animation: float 3s ease-in-out infinite;
 }
 
 .github {
@@ -98,6 +100,7 @@ body {
     width: 125px;
     height: 125px;
     background-color: #0d1117;
+    animation: float 3s ease-in-out infinite;
 }
 
 .discord {
@@ -112,6 +115,7 @@ body {
     width: 125px;
     height: 125px;
     background-color: #7B83EB;
+    animation: float 3s ease-in-out infinite;
 }
 
 .figma {
@@ -126,6 +130,7 @@ body {
     width: 125px;
     height: 125px;
     background-color: #ffffff;
+    animation: float 3s ease-in-out infinite;
 }
 
 img {
@@ -159,5 +164,17 @@ img {
     }
     100% {
       background-position: 100% 100%;
+    }
+}
+
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
     }
 }
