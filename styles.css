@@ -6,6 +6,9 @@ body {
     gap: 10px;
     background-color: #191919;
     background-image: url(bgimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: diagonalScroll 10s linear infinite;
 }
 
 .container {
@@ -148,4 +151,13 @@ img {
 
 .figma:hover {
     scale: 1.1;
+}
+
+@keyframes diagonalScroll {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
 }
