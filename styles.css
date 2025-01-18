@@ -64,9 +64,9 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    border-radius: 7.3px;
-    width: 125px;
-    height: 125px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
     opacity: 100%;
     background-color: #ffffff;
     animation: float 3s ease-in-out infinite;
@@ -79,9 +79,9 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    border-radius: 7.3px;
-    width: 125px;
-    height: 125px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
     background-color: #FF5700;
     animation: float 3s ease-in-out infinite;
 }
@@ -93,9 +93,9 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    border-radius: 7.3px;
-    width: 125px;
-    height: 125px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
     background-color: #0d1117;
     animation: float 3s ease-in-out infinite;
 }
@@ -107,9 +107,9 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    border-radius: 7.3px;
-    width: 125px;
-    height: 125px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
     background-color: #7B83EB;
     animation: float 3s ease-in-out infinite;
 }
@@ -121,16 +121,16 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    border-radius: 7.3px;
-    width: 125px;
-    height: 125px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
     background-color: #ffffff;
     animation: float 3s ease-in-out infinite;
 }
 
 img {
-    width: 125px;
-    height: 125px;
+    width: 150px;
+    height: 150px;
 }
 
 .gmail:hover {
