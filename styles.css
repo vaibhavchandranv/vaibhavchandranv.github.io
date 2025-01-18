@@ -64,7 +64,6 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 2px #ffffff;
     border-radius: 7.3px;
     width: 125px;
     height: 125px;
@@ -80,7 +79,6 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 2px #ff5700;
     border-radius: 7.3px;
     width: 125px;
     height: 125px;
@@ -95,7 +93,6 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 2px #0d1117;
     border-radius: 7.3px;
     width: 125px;
     height: 125px;
@@ -110,7 +107,6 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 2px #7b83eb;
     border-radius: 7.3px;
     width: 125px;
     height: 125px;
@@ -125,7 +121,6 @@ body {
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 2px #ffffff;
     border-radius: 7.3px;
     width: 125px;
     height: 125px;
@@ -134,8 +129,8 @@ body {
 }
 
 img {
-    width: 50px;
-    height: 50px;
+    width: 125px;
+    height: 125px;
 }
 
 .gmail:hover {
