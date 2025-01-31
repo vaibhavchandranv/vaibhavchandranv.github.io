@@ -8,6 +8,13 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    box-shadow: 7px 7px 0 #000;
+    transition: all 0.3s ease;
+}
+
+.pfp:hover {
+    transform: translate(7px, 7px);
+    box-shadow: 0px 0px 0 #000;
 }
 
 .container {
@@ -34,6 +41,12 @@ body {
     justify-content: center;
     flex-direction: column;
     box-shadow: 7px 7px 0 #000;
+    transition: all 0.3s ease;
+}
+
+.about:hover {
+    transform: translate(7px, 7px);
+    box-shadow: 0px 0px 0 #000;
 }
 
 h1 {
@@ -65,9 +78,25 @@ p {
     gap: 50px;
 }
 
-.contactimg {
+.contact {
     width: 200px;
     height: 200px;
     border-radius: 29px;
     box-shadow: 7px 7px 0 #000;
+    transition: all 0.3s ease;
+}
+
+.contactimg {
+    width: 200px;
+    height: 200px;
+}
+
+.contact:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 2px 2px 0 #000;
+}
+
+.contact:active {
+    transform: translate(7px, 7px);
+    box-shadow: 0px 0px 0 #000;
 }
