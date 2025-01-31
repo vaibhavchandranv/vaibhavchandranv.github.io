@@ -2,3 +2,72 @@ body {
     font-family: 'Bricolage Grotesque', sans-serif;
     background-color: #facc15;
 }
+
+.pfp {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    margin-top: 25%;
+    transform: translateY(-50%);
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.about {
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: #F472B6;
+    padding: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 7px 7px 0 #000;
+}
+
+h1 {
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: -4px;
+}
+
+p {
+    color: #000;
+    font-family: "Bricolage Grotesque";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.lower {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.contactimg {
+    width: 200px;
+    height: 200px;
+    border-radius: 29px;
+    box-shadow: 7px 7px 0 #000;
+}
