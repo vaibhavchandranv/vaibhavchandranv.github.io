@@ -89,7 +89,7 @@ p {
 .nametag {
     font-size: 30px;
     font-weight: 600;
-    width: 600px;
+    width: 500px;
     height: auto;
     animation-delay: 1s;
     animation: fadeIn 1s;
