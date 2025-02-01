@@ -54,7 +54,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
-    animation: fadeIn 1s;  
 }
 
 .head {
@@ -84,6 +83,7 @@ body {
     box-shadow: 7px 7px 0 #000;
     transition: all 0.3s ease;
     animation: fadeIn 1s;
+    animation-delay: 1s;
 }
 
 .socialimg {
