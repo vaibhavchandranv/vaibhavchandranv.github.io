@@ -54,6 +54,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
+    animation: fadeIn 1s;  
 }
 
 .head {
