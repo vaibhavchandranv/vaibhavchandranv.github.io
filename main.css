@@ -50,6 +50,10 @@ p, ul {
     text-align: left;
 }
 
+p, ul {
+    font-weight: 500;
+}
+
 .dc {
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
@@ -62,6 +66,7 @@ p, ul {
     text-decoration: none;
     width: 100%;
     animation: floatIn 1s ease;
+    font-weight: 500;
 }
 
 .dc:hover {
@@ -85,6 +90,7 @@ p, ul {
     text-decoration: none;
     width: 100%;
     animation: floatIn 1s ease;
+    font-weight: 500;
 }
 
 .fig:hover {
@@ -108,6 +114,7 @@ p, ul {
     text-decoration: none;
     width: 100%;
     animation: floatIn 1s ease;
+    font-weight: 500;
 }
 
 .email:hover {
@@ -131,6 +138,7 @@ p, ul {
     text-decoration: none;
     width: 100%;
     animation: floatIn 1s ease;
+    font-weight: 500;
 }
 
 .gh:hover {

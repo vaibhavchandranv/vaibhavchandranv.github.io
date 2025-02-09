@@ -19,6 +19,7 @@ body {
     border: 2px solid #000;
     padding: 30px 40px;
     animation: floatIn 1s ease;
+    font-weight: 500;
 }
 
 .header {
@@ -38,6 +39,7 @@ body {
     width: 100%;
     animation-delay: 3s;
     animation: floatIn 1s ease;
+    font-weight: 500;
 }
 
 .cta:hover {
