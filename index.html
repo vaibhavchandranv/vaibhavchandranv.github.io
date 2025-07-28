@@ -1,19 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vaibhav chandra</title>
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>vaibhav chandra — portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Libre Baskerville', serif;
+      text-transform: lowercase;
+      background-color: #0a0a0a;
+      color: white;
+    }
+
+    .scroll-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: white;
+      animation: bounce 1.5s infinite;
+      margin: 2rem auto 0;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(8px);
+      }
+    }
+
+    .about-img {
+      width: auto;
+      height: 400px;
+      object-fit: cover;
+      filter: grayscale(1) contrast(1.2);
+      opacity: 0.6;
+      border-radius: 1rem;
+      margin: 0 auto;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border: 1px solid #ffffff33;
+      border-radius: 9999px;
+      transition: 0.3s ease;
+    }
+
+    .icon-btn:hover {
+      background-color: #ffffff10;
+      box-shadow: 0 0 12px 3px rgba(255, 255, 255, 0.3); /* glow on hover */
+    }
+
+    .icon-btn img {
+      width: 28px;
+      height: 28px;
+    }
+  </style>
+
 </head>
-<body>
-    <div class="container">
-        <span class="header">hi, i'm vaibhav.</span>
-        <p>a ui/ux designer with a burning passion for the work i do.</p>
-        <a href="main.html"><button class="cta">learn more about me</button></a>
-    </div>
+<body class="scroll-smooth overflow-x-hidden">
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
+      <div class="max-w-3xl mx-auto space-y-6">
+        <h1 class="text-5xl md:text-6xl font-bold font-['Playfair_Display']">
+          vaibhav chandra
+        </h1>
+        <p class="text-lg text-gray-300">
+          i make stuff that doesn't suck.
+        </p>
+        <a href="#about" class="scroll-dot block"></a>
+      </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="min-h-screen flex items-center justify-center px-6 border-t border-gray-800">
+      <div class="max-w-6xl w-full grid md:grid-cols-2 items-center gap-12">
+        
+        <!-- Text Column -->
+        <div class="text-center md:text-left space-y-6">
+          <h2 class="text-4xl font-bold font-['Playfair_Display']">about me</h2>
+          <p class="text-gray-300 text-lg leading-relaxed max-w-md mx-auto md:mx-0">
+            i'm vaibhav, a developer, designer, and digital craftsman. i blend logic with aesthetics to build things that feel good to use and even better to look at.  
+            <br><br>
+            whether it's a portfolio, a product page, or just an experiment — if it's digital, i'm in.
+          </p>
+        </div>
+
+        <!-- Image Column -->
+        <div class="flex justify-center md:justify-end">
+          <img 
+            src="abstract.jpg"
+            alt="abstract black and white shape"
+            class="about-img"
+          />
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="min-h-screen flex flex-col items-center justify-center px-6 text-center border-t border-gray-800">
+      <div class="space-y-6">
+        <h2 class="text-4xl font-bold font-['Playfair_Display']">contact me</h2>
+        <p class="text-gray-400 text-lg">let's talk.</p>
+        <div class="flex items-center justify-center gap-6">
+          <a href="mailto:vaibhavnvc@gmail.com" class="icon-btn" aria-label="email">
+            <img src="email.svg" alt="email icon">
+          </a>
+          <a href="https://github.com/vaibhavchandranv" class="icon-btn" aria-label="github" target="_blank">
+            <img src="github.svg" alt="github icon">
+          </a>
+          <a href="https://figma.com/@v79" class="icon-btn" aria-label="figma" target="_blank">
+            <img src="figma.svg" alt="figma icon">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
